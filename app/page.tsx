@@ -3,6 +3,7 @@ import WorkExperience from '@/components/WorkExperience'
 import Overview from '@/components/Overview'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
+import StarsCanvas from '@/components/canvas/stars'
 
 export default function Home() {
   return (
@@ -25,8 +26,11 @@ export default function Home() {
             Creating User Interfaces, Web Applications and more since 2017.
           </sub>
         </div>
-        <Overview/>
-        <Projects/>
+        <div className='z-0 relative p-4'>
+          <Overview/>
+          <StarsCanvas/>
+          <Projects/>
+        </div>
         <Contact/>
       </div>
 
