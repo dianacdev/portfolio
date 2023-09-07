@@ -1,3 +1,6 @@
+import SkillCard from "./SkillCard";
+import Image from "next/image";
+
 const Overview = () => {
     return ( 
         <div className=' pt-10'>
@@ -8,9 +11,14 @@ const Overview = () => {
             <p className="font-light text-slate-400">
                 I am a skilled Software Engineer, I love learning new programming languages and frameworks. In my free time I enjoy building web applications, making video games and much more. I also enjoy watching horror movies, hiking and solving treasure hunts.
              </p>
-             <div>
-                Showcase of my skills/tech/frameworks.
+            <div className="flex flex-cols-5 gap-2 mt-6">
+                <SkillCard/>
+                <SkillCard/>
+                <SkillCard/>
+                <SkillCard/>
+                <SkillCard/>
              </div>
+
         </div>
      );
 }
