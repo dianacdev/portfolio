@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Overview = () => {
     return ( 
-        <div className=' pt-10'>
+        <div className=' pt-20 pb-[10%] mx-[10%]'id="about">
             <div>
-                <sub className="text-lg font-light text-slate-400">INTRODUCTION.</sub>
+                <sub className="text-lg font-light text-slate-400" >INTRODUCTION.</sub>
                 <h2 className="text-6xl" id="#about">Overview.</h2>
             </div>
             <p className="font-light text-slate-400">

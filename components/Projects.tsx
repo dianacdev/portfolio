@@ -2,9 +2,9 @@ import Card from "./Card";
 
 const Projects = () => {
     return ( 
-        <div className='pt-10'>
+        <div className='pt-10 mx-[10%]'>
             <div>
-                <sub className="text-lg font-light text-slate-400">MY WORK.</sub>
+                <sub className="text-lg font-light text-slate-400 " id="project">MY WORK.</sub>
                 <h2 className="text-6xl">Projects.</h2>
             </div>
             <p className="font-light text-slate-400">

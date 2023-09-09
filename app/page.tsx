@@ -5,10 +5,12 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import StarsCanvas from '@/components/canvas/stars'
 
+
 export default function Home() {
   return (
-     <div className='mx-10'>
-        <div className='h-[500px]'>
+    <div>
+     <div className='mx-[10%] mt-[8%]'>
+        <div className='relative w-full h-screen mx-auto'>
           <div className='absolute w-[20%] h-5 bg-green-500/30 right-5 animate-pulse'/>
           <div className='absolute w-[40%] h-5 bg-green-500/30 right-[100px] top-[150px] animate-pulse'/>
           <div className='absolute w-[40%] h-5 bg-emerald-700/30 right-10 top-[280px] animate-pulse'/>
@@ -22,17 +24,18 @@ export default function Home() {
           <div className='absolute w-[80%] h-5 bg-emerald-600/30 left-20 top-[320px] animate-pulse'/>
 
           <h1 className='text-6xl'>Hello, I&apos;m <span className='text-green-500'>Diana.</span></h1>
-          <sub className='text-lg font-light text-slate-400 '>
+          <sub className='text-lg font-light text-slate-400 mt-2'>
             Creating User Interfaces, Web Applications and more since 2017.
           </sub>
         </div>
-        <div className='z-0 relative p-4'>
+      </div>
+      <div className='z-0 relative p-4'>
           <Overview/>
           <StarsCanvas/>
           <Projects/>
-        </div>
-        <Contact/>
       </div>
+      <Contact/>
+    </div>
 
   )
 }
