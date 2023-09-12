@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" className="flex items-center hover:scale-105  group">
                 <Image src={"DianaCLogo.svg"} width={64} height={64} alt="Logo/Home" className="h-10 mr-3"/>
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white group-hover:text-green-400">| Software Engineer</span>
+                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white group-hover:text-green-400">Diana | Software Engineer</span>
             </a>
             <button data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
