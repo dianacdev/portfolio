@@ -45,7 +45,7 @@ export function SQL(props:any) {
     const { nodes, materials } = useGLTF('./models/Reactvhs.glb')
     return (
       <group {...props} dispose={null}>
-        <group position={[0, 1, 0]} scale={[10,10,10]}>
+        <group position={[0, 1, 0]} scale={[10.5,10.5,10.5]}>
           <mesh geometry={nodes.Mesh.geometry} material={materials['Outside, Box']} />
           <mesh geometry={nodes.Mesh_1.geometry} material={materials['Inside, Box']} />
         </group>
