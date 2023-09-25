@@ -56,7 +56,7 @@ export function SQL(props:any) {
 
 const VHS = () => {
     return ( 
-        <div className="mt-[-30%] xl:mt-[-30%] lg:mt-[-60%] md:mt-[-80%] sm:mt-[-90%] snap-x mb-[10%]">
+        <div className=" ml-[10%] mt-[-110%] xl:mt-[-45%] lg:mt-[-60%] md:mt-[-80%] sm:mt-[-90%] snap-x mb-[10%]">
             <div class="reel" >
                 <div className="w-[50vw] h-full overflow-x-hidden snap-center" >
                     <Canvas dpr={[1,4]}>
