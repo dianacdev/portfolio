@@ -33,7 +33,7 @@ const Card: React.FC<CardProps> = ({projectName,description,tag1,tag2,tag3,sourc
                         <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
                     </div>
                     <div className='relative w-full aspect-video bg-gradient-radial from-zinc-400 via-stone-500 to-gray-950 border-4 border-black'>
-                        <Image src={imageLink || '/7-noise-texture-overlays-5.png'} alt='Project Image' width={300} height={500} className='w-full h-full'/>
+                        <Image src={imageLink || '/black-glitch-effect-texture.jpg'} alt='Project Image' width={300} height={500} className='w-full h-full'/>
                         <div className='bg-slate-950/80 w-full h-full absolute top-0 invisible group-hover:visible'>
                             <div className='flex mt-4 w-full'>
                                 <h3 className='font-bold text-2xl ml-4 uppercase'>{projectName}</h3>

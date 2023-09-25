@@ -7,7 +7,7 @@ const Projects = () => {
                 <sub className="text-lg font-light text-slate-400 " >MY WORK.</sub>
                 <h2 className="text-6xl">Projects.</h2>
             </div>
-            <p className="font-light text-slate-400 w-[60%] py-6 leading-relaxed">
+            <p className="font-light text-slate-400 py-6 leading-relaxed w-[70%] lg:w-[70%] md:w-[90%] sm:w-[100%] min-w-fit">
                 Below are some of my recent projects. I use various programming languages to create, fun interactive websites. My favorite are scripts to automate my daily tasks. Checkout the code via the Github link and the live site with the REC button.
              </p>
             <div className="flex flex-wrap gap-8 mt-12">
@@ -17,8 +17,8 @@ const Projects = () => {
                     tag1="Tailwind" tag1Color="text-cyan-300"
                     tag2="Next.js" tag2Color="text-amber-300"
                     tag3="Typescript" tag3Color="text-blue-400"
-                    sourceLink="/"
-                    liveLink="/"
+                    sourceLink="https://github.com/dianacdev/SpotifyClone"
+                    liveLink="https://spotify-clone-77fwkopl3-dianacdev.vercel.app/"
                     imageLink="/Images/spotify.png"
                 />
                 <Card 
@@ -27,8 +27,8 @@ const Projects = () => {
                     tag1="CSS"  tag1Color="text-cyan-200"
                     tag2="Javascript" tag2Color="text-amber-300"
                     tag3="HTML" tag3Color="text-rose-400"
-                    sourceLink="/"
-                    liveLink="/"
+                    sourceLink="https://github.com/dianacdev/Droni"
+                    liveLink="https://droni.netlify.app/"
                     imageLink="/Images/droni.png"
                 />
             </div>
