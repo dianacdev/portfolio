@@ -7,3 +7,23 @@ html,body,:root{
   background: #020617;
   color-scheme: dark;
 }
+
+.reel {
+  display: grid;
+  gap: 4rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 35%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 1rem;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #B6BCD1;
+  border-radius: 5px;
+}
