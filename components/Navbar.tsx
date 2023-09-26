@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
             <a href="/" className="flex items-center hover:scale-105  group">
                 <Image src={"./assets/DianaCLogo.svg"} width={64} height={64} alt="Logo/Home" className="h-10 mr-2"/>
-                <span className="self-center text-sm font-semibold whitespace-nowrap dark:text-white group-hover:text-green-400">Diana | Software Engineer</span>
+                <span className="self-center text-md font-semibold whitespace-nowrap dark:text-white group-hover:text-green-400">Diana | Software Engineer</span>
             </a>
             <button data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center mr-4 p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false"
                 onClick={()=>setToggle(!toggle)}
