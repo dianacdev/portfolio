@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/canvas/stars.jsx", "components/vhs.jsx", "components/Overview.tsx", "components/canvas/vhs.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/canvas/stars.jsx", "components/vhs.jsx", "components/Overview.tsx", "components/canvas/vhs.jsx", "components/Contact.jsx"],
   "exclude": ["node_modules"]
 }
