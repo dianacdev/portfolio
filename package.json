@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "email": "email dev --dir ./emails"
   },
   "dependencies": {
+    "@react-email/button": "0.0.10",
+    "@react-email/components": "^0.0.7",
+    "@react-email/html": "0.0.4",
     "@react-three/drei": "^9.83.3",
     "@react-three/fiber": "^8.14.1",
     "@types/node": "20.4.9",
@@ -22,6 +26,7 @@
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-email": "1.9.5",
     "react-hot-toast": "^2.4.1",
     "react-parallax-tilt": "^1.7.158",
     "resend": "^1.1.0",
