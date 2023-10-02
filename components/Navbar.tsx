@@ -34,7 +34,7 @@ const Navbar = () => {
                 </li>
             </ul>
             </div>
-            <div className={`${!toggle ? 'hidden': 'flex'} p-6 bg-gradient-to-r from-green-500 via-green-700 to-black-900 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+            <div className={`${!toggle ? 'hidden': 'flex'} p-6 bg-gradient-to-r from-indigo-500 via-blue-700 to-black-900 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
               <ul className='list-none flex justify-end items-start flex-col gap-4'>
                 <li
                     onClick={()=>{setToggle(!toggle)}}
