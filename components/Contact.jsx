@@ -48,10 +48,9 @@ const Contact = () => {
     }
 
     return ( 
-      <div className='pt-20 pb-[20%] mx-[10%]' id="contact">
-          <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
-
-            <div className=" lg:w-1/2 md:w-full sm:w-full bg-slate-900 rounded-xl flex flex-col mt-20 min-w-1/2">
+      <div className='pt-20 pb-[20%] mx-[10%]' >
+          <div className="xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden" >
+            <div className=" lg:w-full md:w-full sm:w-full bg-slate-900 rounded-xl flex flex-col mt-20 min-w-1/2" id="contact">
                 <div className="mx-6 my-4">
                     <sub className="text-lg font-light text-slate-400 ml-1">LETS CONNECT.</sub>
                     <h2 className="text-6xl mt-1">Contact.</h2>
@@ -83,7 +82,7 @@ const Contact = () => {
                     </div>
                     <div className="pb-4">
                         <h3 className="m-2 text-lg">Your Message</h3>
-                        <textarea  placeholder="Whats your message?" className="w-full rounded-md bg-slate-800 min-h-[200px] pl-8 pt-2"value={data.message}
+                        <textarea  placeholder="Whats your message?" className="w-full rounded-md bg-slate-800 min-h-[300px] pl-8 pt-2"value={data.message}
                       onChange={(e) =>
                         setData({ ...data, message: e.target.value })
                       }
@@ -92,10 +91,10 @@ const Contact = () => {
                     <button className="w-1/2 bg-blue-950 rounded-lg my-4 h-10 text-xl hover:bg-blue-700 drop-shadow-md hover:scale-105">Send</button>
                 </form>
             </div>
-
             <div className="mt-10">
               <Image src={'../assets/TheEnd.svg'} alt="The End" width={64}  height={64} className="w-full h-full p-10"/>
             </div>
+
 
           </div>
       </div>
