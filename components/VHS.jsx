@@ -2,7 +2,7 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
-export function SQL(props:any) {
+export function SQL(props) {
     const { nodes, materials } = useGLTF('./models/SQLvhs.glb')
     return (
         <group {...props} dispose={null}>
@@ -14,7 +14,7 @@ export function SQL(props:any) {
     )
   }
   
-  export function Python(props:any) {
+  export function Python(props) {
     const { nodes, materials } = useGLTF('./models/Pythonvhs.glb')
     return (
       <group {...props} dispose={null}>
@@ -26,7 +26,7 @@ export function SQL(props:any) {
     )
   }
   
-  export function Typescript(props:any) {
+  export function Typescript(props) {
     const { nodes, materials } = useGLTF('./models/Typescriptvhs.glb')
     return (
       <group {...props} dispose={null}>
@@ -37,7 +37,7 @@ export function SQL(props:any) {
       </group>
     )
   }
-  export function React(props:any) {
+  export function React(props) {
     const { nodes, materials } = useGLTF('./models/Reactvhs.glb')
     return (
       <group {...props} dispose={null}>
