@@ -24,17 +24,11 @@ const Card: React.FC<CardProps> = ({projectName,description,tag1,tag2,tag3,sourc
             <Tilt glareEnable={true} tiltMaxAngleX={20} gyroscope={true}
             tiltMaxAngleY={15} perspective={1000} 
             glareColor={"#fffeee"} className='bg-zinc-900 py-1 rounded-2xl w-full m-4 hover:cursor-pointer group'>
-                    <div className='flex'>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                    </div>
+                    <Image src={'../assets/MovieReel.svg'} alt='Single Frame of Film' width={500} height={700} className='absolute w-[100%] top-0 bottom-0 left-0 right-0 m-auto'></Image>
                     <div className='relative w-full aspect-video bg-gradient-radial from-zinc-400 via-stone-500 to-gray-950 border-4 border-black'>
                         <Image src={imageLink || '/black-glitch-effect-texture.jpg'} alt='Project Image' width={300} height={500} className='w-full h-full'/>
                         <div className='bg-slate-950/80 w-full h-full absolute top-0 invisible group-hover:visible'>
+                        
                             <div className='flex mt-4 w-full'>
                                 <h3 className='font-bold text-2xl ml-4 uppercase'>{projectName}</h3>
                                 <div className=' absolute flex justify-end items-center right-0'>
@@ -48,15 +42,8 @@ const Card: React.FC<CardProps> = ({projectName,description,tag1,tag2,tag3,sourc
                             </div>
                         </div>
                     </div>
-                    <div className='flex'>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                        <div className='bg-slate-950 w-full h-6 m-2 rounded-lg'/>
-                    </div>
             </Tilt>
+            
         </div>
          );
 }

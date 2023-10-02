@@ -7,13 +7,10 @@ import StarsCanvas from '@/components/canvas/stars'
 import Hero from '@/components/Hero'
 import VHS from '@/components/VHS'
 
-
 export default function Home() {
   return (
     <div>
-      {/* <div className='bg-hero-pattern bg-cover'> */}
           <Hero/>
-      {/* </div> */}
       <div className='z-0 relative p-4'>
           <Overview/>
           <VHS/>
