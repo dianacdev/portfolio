@@ -58,7 +58,7 @@ const VHS = () => {
     return ( 
         <div className=" ml-[10%] mt-[-110%] xl:mt-[-45%] lg:mt-[-60%] md:mt-[-80%] sm:mt-[-90%] snap-x mb-[10%]">
             <div class="reel" >
-                <div className="w-[50vw] h-full overflow-x-hidden snap-center" >
+                <div className="w-[50vw] h-full overflow-x-hidden" >
                     <Canvas dpr={[1,4]}>
                             <OrbitControls position={[0,0,0]}enableZoom={false} autoRotate={true} />
                             <ambientLight intensity={2}/>
@@ -66,7 +66,7 @@ const VHS = () => {
                             <SQL/>
                     </Canvas>
                 </div>
-                <div className="w-[50vw] h-full overflow-x-hidden snap-center">
+                <div className="w-[50vw] h-full overflow-x-hidden">
                     <Canvas dpr={[1,4]}>
                             <OrbitControls position={[0,0,0]} autoRotate={true} autoRotateSpeed={1} enableZoom={false}/>
                             <ambientLight intensity={2}/>
@@ -74,7 +74,7 @@ const VHS = () => {
                             <Python />
                     </Canvas>
                 </div>
-                <div className="w-[50vw] h-full overflow-x-hidden snap-center">
+                <div className="w-[50vw] h-full overflow-x-hidden">
                     <Canvas dpr={[1,4]}>
                             <OrbitControls position={[0,0,0]} autoRotate={true} autoRotateSpeed={1} enableZoom={false}/>
                             <ambientLight intensity={2.5}/>
@@ -82,7 +82,7 @@ const VHS = () => {
                             <React/>
                     </Canvas>
                 </div>
-                <div className="w-[50vw] h-full overflow-x-hidden snap-center">
+                <div className="w-[50vw] h-full overflow-x-hidden">
                     <Canvas dpr={[1,4]}>
                             <OrbitControls position={[0,0,0]} autoRotate={true} autoRotateSpeed={1} enableZoom={false}/>
                             <ambientLight intensity={2.5}/>
