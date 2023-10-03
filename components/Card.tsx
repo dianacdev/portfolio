@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({projectName,description,tag1,tag2,tag3,sourc
                     <Image src={'../assets/MovieReel.svg'} alt='Single Frame of Film' width={500} height={700} className='absolute w-[100%] top-0 bottom-0 left-0 right-0 m-auto'></Image>
                     <div className='relative w-full aspect-video bg-gradient-radial from-zinc-400 via-stone-500 to-gray-950 border-4 border-black'>
                         <Image src={imageLink || '/black-glitch-effect-texture.jpg'} alt='Project Image' width={300} height={500} className='w-full h-full'/>
-                        <div className='bg-slate-950/80 w-full h-full absolute top-0 invisible group-hover:visible sm:visible'>
+                        <div className='bg-slate-950/80 w-full h-full absolute top-0 invisible group-hover:visible'>
                         
                             <div className='flex mt-4 w-full'>
                                 <h3 className='font-bold text-2xl ml-4 uppercase'>{projectName}</h3>
@@ -36,7 +36,7 @@ const Card: React.FC<CardProps> = ({projectName,description,tag1,tag2,tag3,sourc
                                     <Link href={liveLink} className='bg-red-600 mx-2 w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 hover:bg-red-500'> REC </Link>
                                 </div>
                             </div>
-                            <p className='text-slate-400 font-light mt-3 ml-4 text-sm truncate'>{description}</p>
+                            <p className='text-slate-400 font-light mt-3 ml-4 text-sm '>{description}</p>
                             <div className='text-slate-100 font-light text-xs flex justify-end mr-2'>
                                 <p className='absolute bottom-2'>Made with <span className={`${tag1Color}`}>{tag1}</span>, <span className={`${tag2Color}`}>{tag2}</span>, <span className={`${tag3Color}`}>{tag3}</span> and more.</p>
                             </div>
