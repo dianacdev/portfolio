@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Trispace } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import {Toaster} from 'react-hot-toast';
+import { Analytics } from '@vercel/analytics/react';
 
 const trispace = Trispace({ subsets: ['latin'] })
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Toaster position='bottom-right' toastOptions={{duration:3000}}/>
         <Navbar/>
         {children}
+        <Analytics/>
       </body>
     </html>
   )
